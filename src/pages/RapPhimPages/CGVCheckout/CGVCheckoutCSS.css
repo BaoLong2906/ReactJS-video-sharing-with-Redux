@@ -1,0 +1,17 @@
+.grid-container-checkout {
+    display: grid;
+    grid-template-columns: auto;
+    scroll-behavior: smooth;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 10px;
+  
+  }
+  
+  .grid-checkout-item {
+    background-color: rgba(190, 216, 232, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    width: 100%;
+  }

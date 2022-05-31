@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  gap: 50px;
+
+}
+
+.grid-item-1{
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
